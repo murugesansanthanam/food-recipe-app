@@ -1,0 +1,53 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 24px;
+}
+
+.app__searchForm {
+  margin-top: 18px;
+}
+
+.app__input {
+  padding: 6px 16px;
+  min-width: 200px;
+  max-width: 100vw;
+  font-size: 15px;
+}
+
+.app__submit {
+  padding: 6px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color: rgb(6, 202, 251);
+  border: 2px solid rgb(6, 202, 251);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.app__submit:hover {
+  padding: 6px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(6, 202, 251);
+  border-radius: 8px;
+  color: rgb(6, 202, 251);
+  cursor: pointer;
+}
+
+.app__recipes {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 230px 230px;
+  align-items: baseline;
+}
+
+.app_healthLabels {
+  padding: 7px 8px;
+  margin-left: 6px;
+  border-radius: 4px;
+}
